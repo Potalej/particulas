@@ -1,0 +1,6 @@
+testes/*
+*.pyd
+*.pyc
+__pycache__
+models/*.task
+tmp.png
