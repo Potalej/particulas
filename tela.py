@@ -249,6 +249,7 @@ class Tela (pyglet.window.Window):
 
     # Contexto do OpenGL
     self.ctx = moderngl.create_context()
+    self.ctx.enable(moderngl.PROGRAM_POINT_SIZE)
 
     # Tamanho dos pontos
     self._tamanho_ponto = tamanho_ponto
